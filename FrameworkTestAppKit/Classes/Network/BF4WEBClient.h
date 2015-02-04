@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <PStatsKit/PSPlayer.h>
+#import "PSPlayer.h"
 
 @interface BF4WEBClient : NSObject
 

@@ -16,10 +16,8 @@ FOUNDATION_EXPORT const unsigned char FrameworkTestAppKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FrameworkTestAppKit/PublicHeader.h>
 
-#import "TAManager.h"
-#import "PSPlayer.h"
 
-//#import <PStatsKit/TAManager.h>
-//#import <PStatsKit/PSPlayer.h>
+#import <PStatsKit/TAManager.h>
+#import <PStatsKit/PSPlayer.h>
 
 

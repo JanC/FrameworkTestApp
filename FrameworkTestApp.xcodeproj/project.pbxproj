@@ -11,11 +11,11 @@
 		19A1733B2BCDBBCE23F557B8 /* TAManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A170CB02FF691EEC8C4ABA /* TAManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19A175A57FCCBA8EA8E3EBE6 /* BF4WEBClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A17FCA2609EC602CDF8833 /* BF4WEBClient.h */; };
 		19A1791445E66C23906146A0 /* TAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A17B85A4DC17B1A630C4A5 /* TAManager.m */; };
-		19A179FE9640E59F5A8FCED1 /* PSPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A17A5DE3ED5613D53EF6BA /* PSPlayer.h */; };
+		19A179FE9640E59F5A8FCED1 /* PSPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A17A5DE3ED5613D53EF6BA /* PSPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19A17CEE79C86DA611F2A53D /* PSPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A17A92C4DA587984C32C64 /* PSPlayer.m */; };
-		3D53FDEB1A826D95001E22F3 /* FrameworkTestAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D53FDEA1A826D95001E22F3 /* FrameworkTestAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D53FDFD1A826D95001E22F3 /* FrameworkTestAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53FDE61A826D95001E22F3 /* FrameworkTestAppKit.framework */; };
-		3D53FDFE1A826D95001E22F3 /* FrameworkTestAppKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53FDE61A826D95001E22F3 /* FrameworkTestAppKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D53FDEB1A826D95001E22F3 /* PStatsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D53FDEA1A826D95001E22F3 /* PStatsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D53FDFD1A826D95001E22F3 /* PStatsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53FDE61A826D95001E22F3 /* PStatsKit.framework */; };
+		3D53FDFE1A826D95001E22F3 /* PStatsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53FDE61A826D95001E22F3 /* PStatsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3DE1A9871A82665D007F4626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1A9861A82665D007F4626 /* main.m */; };
 		3DE1A98A1A82665D007F4626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1A9891A82665D007F4626 /* AppDelegate.m */; };
 		3DE1A98D1A82665D007F4626 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1A98C1A82665D007F4626 /* ViewController.m */; };
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3D53FDFE1A826D95001E22F3 /* FrameworkTestAppKit.framework in Embed Frameworks */,
+				3D53FDFE1A826D95001E22F3 /* PStatsKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,9 +56,9 @@
 		19A17B85A4DC17B1A630C4A5 /* TAManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAManager.m; sourceTree = "<group>"; };
 		19A17F6B616C5DC7D5A5ED1D /* BF4WEBClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BF4WEBClient.m; sourceTree = "<group>"; };
 		19A17FCA2609EC602CDF8833 /* BF4WEBClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BF4WEBClient.h; sourceTree = "<group>"; };
-		3D53FDE61A826D95001E22F3 /* FrameworkTestAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTestAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D53FDE61A826D95001E22F3 /* PStatsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PStatsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D53FDE91A826D95001E22F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D53FDEA1A826D95001E22F3 /* FrameworkTestAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkTestAppKit.h; sourceTree = "<group>"; };
+		3D53FDEA1A826D95001E22F3 /* PStatsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PStatsKit.h; sourceTree = "<group>"; };
 		3DE1A9811A82665D007F4626 /* FrameworkTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworkTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE1A9851A82665D007F4626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DE1A9861A82665D007F4626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D53FDFD1A826D95001E22F3 /* FrameworkTestAppKit.framework in Frameworks */,
+				3D53FDFD1A826D95001E22F3 /* PStatsKit.framework in Frameworks */,
 				3FB2EF8DDF6856E42F84E74A /* libPods-FrameworkTestApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,13 +148,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3D53FDE71A826D95001E22F3 /* FrameworkTestAppKit */ = {
+		3D53FDE71A826D95001E22F3 /* PStatsKit */ = {
 			isa = PBXGroup;
 			children = (
-				3D53FDEA1A826D95001E22F3 /* FrameworkTestAppKit.h */,
+				3D53FDEA1A826D95001E22F3 /* PStatsKit.h */,
 				3D53FDE81A826D95001E22F3 /* Supporting Files */,
 				19A17618C06255513A93927A /* Classes */,
 			);
+			name = PStatsKit;
 			path = FrameworkTestAppKit;
 			sourceTree = "<group>";
 		};
@@ -170,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				3DE1A9831A82665D007F4626 /* FrameworkTestApp */,
-				3D53FDE71A826D95001E22F3 /* FrameworkTestAppKit */,
+				3D53FDE71A826D95001E22F3 /* PStatsKit */,
 				3DE1A9821A82665D007F4626 /* Products */,
 				3DE1A9AA1A8266A2007F4626 /* Podfile */,
 				0B996E86C429BE0EEF85CC9E /* Pods */,
@@ -182,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				3DE1A9811A82665D007F4626 /* FrameworkTestApp.app */,
-				3D53FDE61A826D95001E22F3 /* FrameworkTestAppKit.framework */,
+				3D53FDE61A826D95001E22F3 /* PStatsKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,7 +220,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D53FDEB1A826D95001E22F3 /* FrameworkTestAppKit.h in Headers */,
+				3D53FDEB1A826D95001E22F3 /* PStatsKit.h in Headers */,
 				19A1733B2BCDBBCE23F557B8 /* TAManager.h in Headers */,
 				19A179FE9640E59F5A8FCED1 /* PSPlayer.h in Headers */,
 				19A175A57FCCBA8EA8E3EBE6 /* BF4WEBClient.h in Headers */,
@@ -229,9 +230,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3D53FDE51A826D95001E22F3 /* FrameworkTestAppKit */ = {
+		3D53FDE51A826D95001E22F3 /* PStatsKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D53FE031A826D95001E22F3 /* Build configuration list for PBXNativeTarget "FrameworkTestAppKit" */;
+			buildConfigurationList = 3D53FE031A826D95001E22F3 /* Build configuration list for PBXNativeTarget "PStatsKit" */;
 			buildPhases = (
 				3D53FDE11A826D95001E22F3 /* Sources */,
 				3D53FDE21A826D95001E22F3 /* Frameworks */,
@@ -242,9 +243,9 @@
 			);
 			dependencies = (
 			);
-			name = FrameworkTestAppKit;
+			name = PStatsKit;
 			productName = FrameworkTestAppKit;
-			productReference = 3D53FDE61A826D95001E22F3 /* FrameworkTestAppKit.framework */;
+			productReference = 3D53FDE61A826D95001E22F3 /* PStatsKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3DE1A9801A82665D007F4626 /* FrameworkTestApp */ = {
@@ -299,7 +300,7 @@
 			projectRoot = "";
 			targets = (
 				3DE1A9801A82665D007F4626 /* FrameworkTestApp */,
-				3D53FDE51A826D95001E22F3 /* FrameworkTestAppKit */,
+				3D53FDE51A826D95001E22F3 /* PStatsKit */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +384,7 @@
 /* Begin PBXTargetDependency section */
 		3D53FDFC1A826D95001E22F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D53FDE51A826D95001E22F3 /* FrameworkTestAppKit */;
+			target = 3D53FDE51A826D95001E22F3 /* PStatsKit */;
 			targetProxy = 3D53FDFB1A826D95001E22F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -554,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D53FE031A826D95001E22F3 /* Build configuration list for PBXNativeTarget "FrameworkTestAppKit" */ = {
+		3D53FE031A826D95001E22F3 /* Build configuration list for PBXNativeTarget "PStatsKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D53FDFF1A826D95001E22F3 /* Debug */,

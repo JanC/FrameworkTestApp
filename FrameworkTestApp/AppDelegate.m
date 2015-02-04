@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-@import FrameworkTestAppKit;
+@import PStatsKit;
 
 @interface AppDelegate ()
 

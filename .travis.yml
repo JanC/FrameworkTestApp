@@ -1,2 +1,2 @@
 language: objective-c
-script: xctool -scheme "FrameworkTestApp" -workspace "FrameworkTestApp.xcworkspace"  CONFIGURATION_BUILD_DIR=“build" clean  build 
+script: xctool -scheme "FrameworkTestApp"  -sdk "iphonesimulator"  -workspace "FrameworkTestApp.xcworkspace" 

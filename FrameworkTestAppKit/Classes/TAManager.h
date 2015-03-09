@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PSPlayer.h"
+#import <PStatsKit/PSPlayer.h>
 
 
 @interface TAManager : NSObject
